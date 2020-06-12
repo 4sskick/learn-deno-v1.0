@@ -7,20 +7,20 @@
     with power shell: `iwr -useb get.scoop.sh | iex`
     * [x] install deno
     execute this: `scoop install deno` or for more specific version, `scoop install deno@version`
-* [] Create `hello world!`
-* [] Build REST API - CRUP operation
+* [ ] Create `hello world!`
+* [ ] Build REST API - CRUP operation
     * Determine what to use:
-    * [] Framework
-        * [] Logger
-        * [] CORS
-    * [] Environment Variable
-    * [] Db driver
-    * [] File watcher for auto reaload on every changes
-* [] POST /dinosaurs
+    * [ ] Framework
+        * [ ] Logger
+        * [ ] CORS
+    * [ ] Environment Variable
+    * [ ] Db driver
+    * [ ] File watcher for auto reaload on every changes
+* [ ] POST /dinosaurs
     * Create a dinosaur
-    * [] GET /dinosaurs
+    * [ ] GET /dinosaurs
     * List all dinosaurs
-    * [] PATCH /dinosaurs/:id
+    * [ ] PATCH /dinosaurs/:id
     * Update a dinosaur by id
-    * [] DELETE /dinosaurs/:id
+    * [ ] DELETE /dinosaurs/:id
     * Delete a dinosaur by id

@@ -10,9 +10,10 @@
     * [x] run success with `deno run fileName.ts`
 * [ ] Build REST API - CRUD operation
     * Determine what to use:
-    * [ ] Framework
-        * [ ] Logger
-        * [ ] CORS
+    * [x] Framework
+        * using OAK framework as REST - `https://oakserver.github.io/oak/`
+    * [ ] Logger
+    * [ ] CORS
     * [ ] Environment Variable
     * [ ] Db driver
     * [ ] File watcher for auto reaload on every changes

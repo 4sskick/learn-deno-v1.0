@@ -6,7 +6,8 @@
     with power shell: `iwr -useb get.scoop.sh | iex`
     * [x] install deno
     execute this: `scoop install deno` or for more specific version, `scoop install deno@version`
-* [ ] Create `hello world!`
+* [x] Create `hello world!`
+    * [x] run success with `deno run fileName.ts`
 * [ ] Build REST API - CRUP operation
     * Determine what to use:
     * [ ] Framework

@@ -8,7 +8,7 @@
     execute this: `scoop install deno` or for more specific version, `scoop install deno@version`
 * [x] Create `hello world!`
     * [x] run success with `deno run fileName.ts`
-* [ ] Build REST API - CRUP operation
+* [ ] Build REST API - CRUD operation
     * Determine what to use:
     * [ ] Framework
         * [ ] Logger

@@ -1,8 +1,7 @@
 # Learning DENO v1.0 - Build simple REST API
 
-* looking information about DENO
 [x] What is DENO?
-* Install
+* [x] Install
     * [x] using scoop to install, my env is Win10
     with power shell: `iwr -useb get.scoop.sh | iex`
     * [x] install deno

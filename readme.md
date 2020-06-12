@@ -17,9 +17,9 @@
     * [ ] File watcher for auto reaload on every changes
 * [ ] POST /dinosaurs
     * Create a dinosaur
-    * [ ] GET /dinosaurs
+* [ ] GET /dinosaurs
     * List all dinosaurs
-    * [ ] PATCH /dinosaurs/:id
+* [ ] PATCH /dinosaurs/:id
     * Update a dinosaur by id
-    * [ ] DELETE /dinosaurs/:id
+* [ ] DELETE /dinosaurs/:id
     * Delete a dinosaur by id

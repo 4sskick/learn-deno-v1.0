@@ -17,8 +17,10 @@
     * [x] Environment Variable
         * need to set export: true on config function
     * [x] Db driver
-        * using mongo DB on version [v0.8.0](https://deno.land/x/mongo@v0.8.0/mod.ts) which compatible with dino version 1.0.5
-        * make sure to start service of mongo on workspace
+        * mongo DB on version [v0.8.0](https://github.com/manyuanrong/deno_mongo/tree/v0.8.0) which compatible dino version 1.0.5
+        * make sure to:
+            * start service of mongo on workspace - [can see here for short script](https://gist.github.com/4sskick/d600f7988e1ca64b01cb055de750b199)
+            * stop service [can see here for short script](https://gist.github.com/4sskick/4ae35869e506d1a625585acfe9998006)
         * start with command: `deno run --allow-net --allow-env --allow-read --allow-write --allow-plugin --unstable .\main.ts`
     * [ ] File watcher for auto reaload on every changes
 * [ ] POST /dinosaurs

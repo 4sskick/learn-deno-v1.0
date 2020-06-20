@@ -14,7 +14,8 @@
         * using OAK framework as REST - `https://oakserver.github.io/oak/`
     * [ ] Logger
     * [ ] CORS
-    * [ ] Environment Variable
+    * [x] Environment Variable
+        * need to set export: true on config function
     * [ ] Db driver
     * [ ] File watcher for auto reaload on every changes
 * [ ] POST /dinosaurs

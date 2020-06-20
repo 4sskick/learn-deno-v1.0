@@ -1,6 +1,13 @@
 import { Application } from "https://deno.land/x/oak/mod.ts";
+import * as envConfig from "https://deno.land/x/dotenv/mod.ts";
+
+//set config
+envConfig.config({ export: true });
 
 const app = new Application();
+const env = Deno.env;
+
+console.log(env.get("SOME_ENV_VAR"));
 
 // Logger
 app.use(async (ctx, next) => {
@@ -19,7 +26,7 @@ app.use(async (ctx, next) => {
 
 app.use((ctx) => {
   ctx.response.body = {
-    message: "Hello from deno!"
+    message: "Hello from deno!",
   };
 });
 

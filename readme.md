@@ -8,7 +8,7 @@
     execute this: `scoop install deno` or for more specific version, `scoop install deno@version`
 * [x] Create `hello world!`
     * [x] run success with `deno run fileName.ts`
-* [ ] Build REST API - CRUD operation folder REST-dinosaurs
+* [ ] Build REST API - CRUD operation folder `REST-dinosaurs`
     * Determine what to use:
     * [x] Framework
         * using OAK framework as REST - `https://oakserver.github.io/oak/`

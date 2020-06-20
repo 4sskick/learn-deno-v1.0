@@ -16,11 +16,14 @@
     * [ ] CORS
     * [x] Environment Variable
         * need to set export: true on config function
-    * [ ] Db driver
+    * [x] Db driver
+        * using mongo DB on version v0.8.0 which compatible with dino version 1.0.5
+        * make sure to start service of mongo on workspace
+        * start with command: `deno run --allow-net --allow-env --allow-read --allow-write --allow-plugin --unstable .\main.ts`
     * [ ] File watcher for auto reaload on every changes
 * [ ] POST /dinosaurs
     * Create a dinosaur
-* [ ] GET /dinosaurs
+* [X] GET /dinosaurs
     * List all dinosaurs
 * [ ] PATCH /dinosaurs/:id
     * Update a dinosaur by id

@@ -23,11 +23,13 @@
             * stop service [can see here for short script](https://gist.github.com/4sskick/4ae35869e506d1a625585acfe9998006)
         * start with command: `deno run --allow-net --allow-env --allow-read --allow-write --allow-plugin --unstable .\main.ts`
     * [ ] File watcher for auto reaload on every changes
-* [x] POST /dinosaurs
+* [x] POST /dinosaur
     * Create a dinosaur
 * [X] GET /dinosaurs
     * List all dinosaurs
-* [ ] PATCH /dinosaurs/:id
-    * Update a dinosaur by id
-* [ ] DELETE /dinosaurs/:id
-    * Delete a dinosaur by id
+* [ ] GET /dinosaur/:name
+    * List all dinosaurs by name
+* [ ] PATCH /dinosaur/:name
+    * Update a dinosaur by name
+* [ ] DELETE /dinosaur/:name
+    * Delete a dinosaur by name
